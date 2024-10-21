@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    box-shadow: 0 0 15px #888;
+    padding: 20px;
+    border-radius: 5px;
+    width: 450px;
+}
+.form-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.input-box input {
+    padding: 12px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.1),
+        10px 10px 10px rgba(0, 0, 0, 0.200),
+        inset -10px -10px 10px rgba(255,255,255,0.1),
+        inset 10px 10px 15px rgba(0, 0, 0, 0.200);
+}
+.but-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    height: 40px;
+    width: 100px;
+    background: rgb(0, 140, 255);
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.but-card span {
+    color: #666;
+    font-size: 17px;
+}
+.but-card span a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 140, 255);
+}
+.success {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #cef8cecc;
+    color: green;
+    font-size: 20px;
+    width: 450px;
+}
+.alert {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f8cececc;
+    color: red;
+    font-size: 20px;
+    width: 450px;
+}
+.index-bg-cont {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.nav-card {
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.logo {
+    height: 90px;
+    width: 170px;
+}
+.logout-but{
+    height: 45px;
+    width: 110px;
+    background: rgb(255, 0, 0);
+    border-radius: 3px;
+    border: 0;
+}
+.logout-but a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.banner-card {
+    text-align: center;
+    margin-top: 75px;
+}
+.head {
+    color: #fff;
+    font-size: 50px;
+}
+.para {
+    color: #fff;
+    font-size: 16px;
+}
+.search-card {
+    margin-top: 15px;
+}
+.in {
+    padding: 15px;
+    border: 0px;
+    width: 25%;
+    font-size: 15px;
+    border: 1px solid;
+}
+.in:hover {
+    border: 1px solid red;
+}
+.in-but {
+    width: 20%;
+    background: red;
+    color: #fff;
+}
